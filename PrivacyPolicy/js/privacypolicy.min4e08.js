@@ -1,0 +1,1 @@
+$((function(){$('a[href*="#"]:not([href="#"])').click((function(){var t=$("nav.affix").height()+10;if(location.pathname.replace(/^\//,"")==this.pathname.replace(/^\//,"")&&location.hostname==this.hostname){var a=$(this.hash);if((a=a.length?a:$("[name="+this.hash.slice(1)+"]")).length)return $("html, body").animate({scrollTop:a.offset().top-t},1e3),!1}}))}));
